@@ -1,22 +1,71 @@
+ul {
+  text-decoration: none; }
+
 .container {
-  width: 100%;
-  display: inline-block; }
+  width: 100%; }
 
 header {
   margin: 0;
-  height: 122px;
-  width: 100%;
-  border: 1px solid black; }
+  width: 100%; }
+
+nav.header {
+  height: 59px;
+  border-bottom: 1px solid grey; }
+
+nav.search {
+  margin: 0; }
+
+form {
+  width: 500px;
+  margin: 50px auto; }
+
+.nav-header-sub {
+  height: 43px;
+  border-bottom: 1px solid grey; }
+
+.nav-header-sub {
+  text-align: center;
+  text-decoration: none; }
 
 .content {
   margin: 0;
-  height: 500px;
-  width: 100%;
-  border: 1px solid black; }
+  height: 1095px;
+  width: 100%; }
+
+.aside {
+  width: 200px;
+  float: left;
+  border: 1px solid grey; }
+
+input {
+  width: 50px;
+  height: 35px; }
+
+select {
+  width: 40px;
+  height: 35px; }
+
+.categories {
+  list-style: none;
+  width: 200px;
+  border: 1px solid grey; }
+
+.filter {
+  width: 200px;
+  border: 1px solid grey; }
+
+.section {
+  float: right; }
+
+.item-results {
+  height: 250px;
+  width: 200px;
+  border: 1px solid grey;
+  float: left; }
 
 footer {
   margin: 0;
   height: 100px;
   width: 100%;
-  border: 1px solid black;
+  border-top: 1px solid black;
   float: left; }

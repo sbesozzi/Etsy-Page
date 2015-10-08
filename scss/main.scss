@@ -1,52 +1,138 @@
+ul {
+  text-decoration: none;
+}
+
 .container {
   
   width: 100%;
-  display: inline-block;
+  // display: inline-block;
  
 }
 
 header {
   margin: 0;
-  height: 122px;
   width: 100%;
-  border: 1px solid black;
+  
 
+    }
+
+  nav.header {
+  height: 59px;
+  border-bottom: 1px solid grey;
 }
+
+  nav.title {
+
+
+  }
+    input {
+
+    }
+    select {
+
+    }
+
+    nav.search {
+    margin: 0;
+  }
+
+  form {
+    width:500px;
+    margin:50px auto;
+  }
+
+  .nav-header-sub {
+    height: 43px;
+    border-bottom: 1px solid grey;
+  }
+
+
+//   .search {
+//   padding:8px 15px;
+//   background:rgba(50, 50, 50, 0.2);
+//   border:0px solid #dbdbdb;
+// }
+//     .button {
+//   position:relative;
+//   padding:6px 15px;
+// left:-8px;
+//   border:2px solid #207cca;
+//   background-color:#207cca;
+//   color:#fafafa;
+// }
+//   .button:hover  {
+//   background-color:#fafafa;
+//   color:#207cca;
+// } 
+
+.nav-header-sub {
+
+  text-align: center;
+    text-decoration: none; 
+  }
 
 
 
 .content {
   margin: 0;
-  height: 500px;
+  height: 1095px;
   width: 100%;
   
-  border: 1px solid black;
+  // border: 1px solid grey;
   // float: left;
 
 }
 
-  .aside {
-    // float: left;
-      // border: 1px solid black;
+.aside {
+    width: 200px;
+
+    float: left;
+      border: 1px solid grey;
 
   }
+  div.filter-price {
 
-  .section {
-    // float: right;
+  }
+      input {
+    width: 50px;
+    height: 35px;
+  }
+
+   select {
+    width: 40px;
+    height: 35px;
+  }
+
+.categories {
+  list-style: none;
+  width: 200px;
+  border: 1px solid grey;
+    }
+
+.filter {
+  width: 200px;
+  border: 1px solid grey;
+    }
+
+
+
+.section {
+    float: right;
           // border: 1px solid black;
 
   }
-
-  .item {
-
-
-  }
+.item-results {
+  height: 250px;
+  width: 200px;
+  border: 1px solid grey;
+  float: left;
+}
 
 footer {
   margin: 0;
   height: 100px;
   width: 100%;
-  border: 1px solid black;
+  border-top: 1px solid black;
   float: left;
 
 }
