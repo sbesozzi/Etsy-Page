@@ -168,23 +168,22 @@
             <script type="text/template" id="itemTemplate">
               <div>
                 <p>
-                <%= Images.0 %>
+                <img src="<%= Images[0].url_170x135 %>">
                 </p>
               </div>
 
               <div>
                 <p>
-                <%= description %>
+                <%= title %>
                 </p> 
                 <p>
                 <%= Shop.shop_name %>
                 </p>
                 <p>
-                <%= "$"+price+currency_code %>
+                <%= "$"+price+" "+currency_code %>
                 </p>
               </div>
-
-              <hr>
+               <hr>
             </script>
 
           </div>

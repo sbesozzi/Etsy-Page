@@ -157,6 +157,10 @@ ul {
         float: left;
         }
 
+      .results {
+        margin-top: 0;
+      }
+
       .categories {
         list-style: none;
         width: 245px;
@@ -283,7 +287,7 @@ ul {
             margin: 5px;
             height: 230px;
             width: 230px;
-            border: 1px solid grey;
+            // border: 1px solid grey;
             display: inline-block;
             float: left;
           }

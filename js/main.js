@@ -4,25 +4,25 @@
 
 var templateString = $('#itemTemplate').text();
 
-// var templateString = ' <div><p><%= Images.0 %></p><p><%= description %></p> <p><%= Shop.shop_name %></p><p><%= "$"+price+currency_code %></p></div>';
+// var templateString = ' <div><p><%= Images[0] %></p><p><%= title %></p> <p><%= Shop.shop_name %></p><p><%= "$"+price+currency_code %></p></div>';
 
-<div>
-  <p>
-  <%= Images.0 %>
-  </p>
-</div>
+// <div>
+//   <p>
+//   <%= Images[0] %>
+//   </p>
+// </div>
 
-<div>
-  <p>
-  <%= description %>
-  </p> 
-  <p>
-  <%= Shop.shop_name %>
-  </p>
-  <p>
-  <%= "$"+price+currency_code %>
-  </p>
-</div>
+// <div>
+//   <p>
+//   <%= title %>
+//   </p> 
+//   <p>
+//   <%= Shop.shop_name %>
+//   </p>
+//   <p>
+//   <%= "$"+price+currency_code %>
+//   </p>
+// </div>
 
 // Call template function to call out string 
 var templateFunction = _.template(templateString);
