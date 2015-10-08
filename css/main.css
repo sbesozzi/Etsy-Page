@@ -108,7 +108,8 @@ aside {
 .filter {
   width: 245px;
   height: 700px;
-  border: 1px solid grey; }
+  border: 1px solid grey;
+  background-color: white; }
 
 .filter-type {
   height: 124x;
@@ -153,17 +154,25 @@ section {
   float: right; }
 
 .item-search {
-  height: 100px;
-  width: 770px;
   display: inline;
-  border: 1px solid red;
   clear: both; }
 
 .search-results {
+  height: 30px;
+  width: 400px;
   float: left; }
+  .search-results h4 {
+    padding-left: 5px;
+    font-size: 15px;
+    display: inline; }
 
 .sort {
+  height: 30px;
+  width: 186px;
   float: right; }
+  .sort h4 {
+    font-size: 15px;
+    display: inline; }
 
 .item-results {
   width: 730px;
