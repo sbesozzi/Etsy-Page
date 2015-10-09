@@ -240,6 +240,10 @@ ul {
             border-bottom: 1px solid #D4D4D4;
             list-style-type: none;
 
+            ul {
+              padding-left: 10px;
+            }
+
 
             li {
               height:20px;
@@ -332,10 +336,33 @@ ul {
             width: 230px;
             // border: 1px solid grey;
             border-radius: 2px;
-
+            overflow: hidden;
+        
             display: inline-block;
             float: left;
           }
+
+   // Template
+
+
+
+        .item-title p {
+          font-size: 12px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .item-subtitle p {
+          font-size: 12px;
+          display: inline;
+
+
+        }
+
+
+        
+        
 
 
   footer {

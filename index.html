@@ -161,32 +161,32 @@
           </div>
         </div>
 
+
         <div class="item-results">
 
-          <div class= "item">
+        
+          <script type="text/template" id="itemTemplate">
 
-            <script type="text/template" id="itemTemplate">
-              <div>
-                <p>
-                <img src="<%= Images[0].url_170x135 %>">
-                </p>
+           <div class= "item">
+
+              <div class= "item-img">
+                <p><img src="<%= Images[0].url_170x135 %>"></p>
               </div>
 
-              <div>
-                <p>
-                <%= title %>
-                </p> 
-                <p>
-                <%= Shop.shop_name %>
-                </p>
-                <p>
-                <%= "$"+price+" "+currency_code %>
-                </p>
+              <div class="item-disc">   
+                <div class="item-title">
+                  <p> <%= title %></p> 
+                </div>
+                <div class="item-subtitle">
+                  <p><%= Shop.shop_name %></p>
+                  <p><%= "$"+price+" "+currency_code %></p>
+                </div>    
               </div>
                <hr>
-            </script>
 
-          </div>
+            </div>
+
+          </script>
 
         </div>
 

@@ -33,7 +33,7 @@ _.each(etsy.results, function (item) {
   
   var itemHTML = templateFunction(item);
   
-  $('.item').append(itemHTML);
+  $('.item-results').append(itemHTML);
 
 });
 

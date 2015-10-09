@@ -157,6 +157,8 @@ h4 {
   height: 88px;
   border-bottom: 1px solid #D4D4D4;
   list-style-type: none; }
+  .filter-color ul {
+    padding-left: 10px; }
   .filter-color li {
     height: 20px;
     width: 20px;
@@ -216,8 +218,19 @@ section {
   height: 230px;
   width: 230px;
   border-radius: 2px;
+  overflow: hidden;
   display: inline-block;
   float: left; }
+
+.item-title p {
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.item-subtitle p {
+  font-size: 12px;
+  display: inline; }
 
 footer {
   margin: 0;
