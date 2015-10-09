@@ -1,6 +1,3 @@
-ul {
-  text-decoration: none; }
-
 .container {
   width: 100%; }
 
@@ -120,7 +117,10 @@ h4 {
   list-style-type: none;
   padding-left: 20px; }
 
-ul {
+li {
+  padding-bottom: 7px; }
+
+li a {
   font-size: 13px; }
 
 .filter {
@@ -134,19 +134,25 @@ ul {
   height: 124x;
   border-bottom: 1px solid #D4D4D4; }
 
+li a {
+  font-size: 13px; }
+
 .filter-price {
   height: 98px;
-  border: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF;
   display: inline; }
-
-h4 {
-  margin: 0;
-  padding-top: 10px; }
+  .filter-price h4 {
+    margin: 0;
+    padding-top: 10px; }
+  .filter-price a {
+    padding: 0; }
 
 .price-input {
   margin-left: 10px;
   width: 50px;
-  height: 35px; }
+  height: 35px;
+  border: 1px solid #E1E3DF;
+  border-radius: 2px; }
 
 .price-select {
   width: 40px;
@@ -154,16 +160,17 @@ h4 {
 
 .filter-color {
   height: 88px;
-  border: 1px solid #E1E3DF;
-  list-style-type: none; }
+  border-bottom: 1px solid #E1E3DF; }
   .filter-color ul {
+    list-style-type: none;
     padding-left: 10px; }
   .filter-color li {
+    display: inline; }
+  .filter-color li a {
     height: 20px;
     width: 20px;
     border-radius: 2px;
-    border: 1px solid #E1E3DF;
-    display: inline; }
+    border: 1px solid #E1E3DF; }
 
 div.filter-order {
   height: 92;
@@ -182,7 +189,7 @@ section {
   margin-right: auto;
   padding-right: 154px;
   width: 770px;
-  height: 2250px;
+  height: 2150px;
   display: inline-block;
   float: right; }
 
@@ -200,6 +207,7 @@ section {
     display: inline; }
 
 .sort {
+  padding-right: 10px;
   height: 30px;
   width: 186px;
   float: right; }

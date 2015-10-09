@@ -1,3 +1,3 @@
-## This is a Readme
+## Etsy Page
 
-> You should probably update me.
+> Creating an Etsy page using jQuery and Underscore

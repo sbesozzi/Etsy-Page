@@ -1,6 +1,6 @@
-ul {
-  text-decoration: none;
-}
+// ul {
+//   text-decoration: none;
+// }
 
 
 .container {
@@ -185,7 +185,12 @@ ul {
           list-style-type: none;
           padding-left: 20px;
         }
-          ul {
+    
+          li {
+            padding-bottom: 7px;
+          }
+
+          li a {
             font-size: 13px;
           }
 
@@ -204,28 +209,39 @@ ul {
             border-bottom: 1px solid #D4D4D4;
 
         }
-          ul {
-            // <input type=“radio”>
+       
+          // li {
+          //   padding-bottom: 7px;
+          // }
+
+          li a {
+            font-size: 13px;
           }
 
         .filter-price {
            height: 98px;
-            border: 1px solid #E1E3DF;
+            border-bottom: 1px solid #E1E3DF;
             display: inline;
 
-        } 
+         
           h4 {
             margin: 0;
             padding-top: 10px;
           }
 
+          a {
+            padding: 0;
+          }
 
+        }
 
             .price-input {
                margin-left: 10px;
 
               width: 50px;
             height: 35px;
+             border: 1px solid #E1E3DF;
+             border-radius: 2px;
             }
 
             .price-select {
@@ -236,20 +252,24 @@ ul {
           .filter-color {
 
             height: 88px;
-            border: 1px solid #E1E3DF;
-            list-style-type: none;
+            border-bottom: 1px solid #E1E3DF;
+  
 
             ul {
+              list-style-type: none;
               padding-left: 10px;
             }
 
-
             li {
+              display: inline;
+            }
+
+
+            li a {
               height:20px;
               width: 20px;
               border-radius: 2px;
               border: 1px solid #E1E3DF;
-              display: inline;
             }
 
               // a {
@@ -281,13 +301,14 @@ ul {
         margin-right: auto;
         padding-right: 154px;
         width: 770px;
-        height: 2250px;
+        height: 2150px;
         display: inline-block;
         float: right;
 
         }
 
       .item-search {
+
         // height: 100px;
         // width: 770px;
         display: inline;
@@ -310,6 +331,7 @@ ul {
       }
 
       .sort {
+        padding-right: 10px;
         height: 30px;
         width: 186px;
         // display: inline;
