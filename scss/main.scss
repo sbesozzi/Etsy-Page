@@ -17,9 +17,7 @@ ul {
     width: 100%;
     display: inline-block;
     border-bottom: 1px solid grey;
-
     }
-
 
     .nav-header {
       padding-top: 17px;
@@ -54,7 +52,11 @@ ul {
         float: right;
       }
 
-      
+        .nav-form{
+          border-radius: 2px;
+
+        }
+
         .input-text {
           width: 265px;
         height: 30px; 
@@ -160,41 +162,69 @@ ul {
       .results {
         margin-top: 0;
       }
+        h4 {
+          padding-right: 0;
+          font-size: 13px;
+        }
 
       .categories {
         list-style: none;
         width: 245px;
         height: 215px;
-        border: 1px solid grey;
+        border: 1px solid #D4D4D4;
+        border-radius: 2px;
         background-color: white;
+      }
 
+          h4 {
+            padding-left: 8px;
+            font-size: 13px;
 
-        }
+          }
 
         .categories-list {
           list-style-type: none;
+          padding-left: 20px;
         }
+          ul {
+            font-size: 13px;
+          }
 
       .filter {
         width: 245px;
-        height: 700px;
-        border: 1px solid grey;
+        height: 738px;
+        border: 1px solid #D4D4D4;
+        border-radius: 2px;
+
         background-color: white;
       }
 
 
         .filter-type {
             height: 124x;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
+
         }
+          ul {
+            // <input type=“radio”>
+          }
 
         .filter-price {
            height: 98px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
+            display: inline;
 
-        }
+        } 
+          h4 {
+            margin: 0;
+            padding-top: 10px;
+          }
+
+
 
             .price-input {
+               margin-left: 10px;
+
               width: 50px;
             height: 35px;
             }
@@ -204,28 +234,41 @@ ul {
             height: 35px;
             }
 
-          div.filter-color {
+          .filter-color {
 
             height: 88px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
             list-style-type: none;
 
+
+            li {
+              height:20px;
+              width: 20px;
+              border-radius: 2px;
+              border: 1px solid grey;
+              display: inline;
+            }
+
+              // a {
+              // padding-right: 0;
+
+              // }
           }
 
           div.filter-order {
             height: 92;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
 
           }
 
           div.filter-location {
             height: 109px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
           }
 
           div.filter-ship {
             height: 92px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #D4D4D4;
 
           }
         
@@ -258,7 +301,7 @@ ul {
 
         h4 {
           padding-left: 5px;
-          font-size: 15px;
+          font-size: 13px;
           display: inline;
         }
       }
@@ -288,6 +331,8 @@ ul {
             height: 230px;
             width: 230px;
             // border: 1px solid grey;
+            border-radius: 2px;
+
             display: inline-block;
             float: left;
           }
