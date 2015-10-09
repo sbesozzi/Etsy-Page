@@ -9,8 +9,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
-  display: inline-block;
-  border-bottom: 1px solid grey; }
+  display: inline-block; }
 
 .nav-header {
   padding-top: 17px;
@@ -65,7 +64,7 @@ h1 {
 .sub-header {
   width: 100%;
   height: 38px;
-  border-bottom: 1px solid grey; }
+  border: 1px solid #E1E3DF; }
 
 .sub-catagories {
   padding-top: 10px;
@@ -93,7 +92,7 @@ a {
   display: inline-block; }
 
 aside {
-  padding-left: 100px;
+  padding-left: 95px;
   margin: 5px;
   width: 250px;
   float: left; }
@@ -109,7 +108,7 @@ h4 {
   list-style: none;
   width: 245px;
   height: 215px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #E1E3DF;
   border-radius: 2px;
   background-color: white; }
 
@@ -127,7 +126,7 @@ ul {
 .filter {
   width: 245px;
   height: 738px;
-  border: 1px solid #D4D4D4;
+  border: 1px solid #E1E3DF;
   border-radius: 2px;
   background-color: white; }
 
@@ -137,7 +136,7 @@ ul {
 
 .filter-price {
   height: 98px;
-  border-bottom: 1px solid #D4D4D4;
+  border: 1px solid #E1E3DF;
   display: inline; }
 
 h4 {
@@ -155,7 +154,7 @@ h4 {
 
 .filter-color {
   height: 88px;
-  border-bottom: 1px solid #D4D4D4;
+  border: 1px solid #E1E3DF;
   list-style-type: none; }
   .filter-color ul {
     padding-left: 10px; }
@@ -163,7 +162,7 @@ h4 {
     height: 20px;
     width: 20px;
     border-radius: 2px;
-    border: 1px solid grey;
+    border: 1px solid #E1E3DF;
     display: inline; }
 
 div.filter-order {
@@ -172,16 +171,16 @@ div.filter-order {
 
 div.filter-location {
   height: 109px;
-  border-bottom: 1px solid #D4D4D4; }
+  border: 1px solid #E1E3DF; }
 
 div.filter-ship {
   height: 92px;
-  border-bottom: 1px solid #D4D4D4; }
+  border: 1px solid #E1E3DF; }
 
 section {
   margin-left: auto;
   margin-right: auto;
-  padding-right: 148px;
+  padding-right: 154px;
   width: 770px;
   height: 2250px;
   display: inline-block;
@@ -214,23 +213,47 @@ section {
   clear: both; }
 
 .item {
-  margin: 5px;
-  height: 230px;
-  width: 230px;
+  margin: 8px;
+  margin-top: 0;
+  height: 227px;
+  width: 225px;
+  background-color: white;
+  border: 1px solid #E1E3DF;
   border-radius: 2px;
   overflow: hidden;
   display: inline-block;
   float: left; }
 
+.item-img p {
+  margin: 0; }
+
+.item-img p img {
+  width: 100%; }
+
 .item-title p {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 12px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
 
 .item-subtitle p {
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
   font-size: 12px;
+  color: #AAA;
   display: inline; }
+
+.shop {
+  float: left; }
+
+.price {
+  float: right; }
 
 footer {
   margin: 0;
