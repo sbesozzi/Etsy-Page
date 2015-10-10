@@ -34,16 +34,21 @@ h1 {
   float: right; }
 
 .nav-form {
-  border-radius: 2px; }
+  border: 1px solid #E1E3DF;
+  border-radius: 3px; }
 
 .input-text {
+  border: 0;
   width: 265px;
-  height: 30px; }
+  height: 30px;
+  background-color: #FBFBFA; }
 
 .input-button {
   width: 80px;
   height: 35px;
   background-color: #40A7C7;
+  border: 0;
+  outline: none;
   color: white; }
 
 .nav-login {
@@ -66,7 +71,7 @@ h1 {
   font-size: 14px;
   color: #0192B5;
   border: 1px solid #0192B5;
-  border-radius: 2px;
+  border-radius: 3px;
   padding-right: 15px; }
 
 .sub-header {
@@ -102,6 +107,7 @@ aside {
   padding-left: 95px;
   margin: 5px;
   width: 250px;
+  height: 940px;
   float: left; }
 
 .results {
@@ -116,7 +122,7 @@ aside {
   width: 245px;
   height: 215px;
   border: 1px solid #E1E3DF;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: white; }
 
 h4 {
@@ -135,21 +141,21 @@ li a {
   font-size: 13px; }
 
 .filter {
-  width: 245px;
-  height: 738px;
+  width: 240px;
+  height: 625px;
   border: 1px solid #E1E3DF;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: white; }
 
 .filter-type {
-  height: 124x;
+  height: 110px;
   border-bottom: 1px solid #D4D4D4; }
 
 li a {
   font-size: 13px; }
 
 .filter-price {
-  height: 98px;
+  height: 100px;
   border-bottom: 1px solid #E1E3DF;
   display: inline; }
   .filter-price h4 {
@@ -180,55 +186,82 @@ li a {
   .filter-color .red {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #F50F32; }
   .filter-color .orange {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #FB7F00; }
   .filter-color .yellow {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #F3CC0A; }
   .filter-color .green {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #31C300; }
   .filter-color .blue {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #2FCCF3; }
   .filter-color .purple {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #A60AF3; }
   .filter-color .black {
     height: 18px;
     width: 18px;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #000000; }
   .filter-color .white {
     height: 18px;
     width: 18px;
     background-color: #FFFFFF;
+    border-radius: 3px;
     border: 1px solid #E1E3DF; }
 
-div.filter-order {
-  height: 92;
+.filter-order {
+  height: 90px;
+  padding-bottom: 0;
   border-bottom: 1px solid #D4D4D4; }
+  .filter-order h4 {
+    margin-bottom: 0; }
+  .filter-order ul {
+    margin-top: 0;
+    padding-top: 5px; }
 
-div.filter-location {
-  height: 109px;
-  border: 1px solid #E1E3DF; }
+.filter-location {
+  height: 105px;
+  border-bottom: 1px solid #E1E3DF; }
+  .filter-location ul {
+    margin: 0; }
 
-div.filter-ship {
-  height: 92px;
-  border: 1px solid #E1E3DF; }
+.local-shop {
+  margin-bottom: 0;
+  padding-bottom: 5px; }
+
+.local-custom {
+  margin: 0; }
+
+.filter-ship {
+  height: 92px; }
+  .filter-ship h4 {
+    margin-bottom: 0;
+    padding-bottom: 5px; }
+  .filter-ship form {
+    width: 220px;
+    height: 40px;
+    margin-left: 5px;
+    border: 1px solid #E1E3DF;
+    border-radius: 3px; }
+  .filter-ship form a {
+    padding-left: 5px;
+    padding-top: 10px; }
 
 section {
   margin-left: auto;
@@ -273,7 +306,7 @@ section {
   width: 225px;
   background-color: white;
   border: 1px solid #E1E3DF;
-  border-radius: 2px;
+  border-radius: 3px;
   overflow: hidden;
   display: inline-block;
   float: left; }
