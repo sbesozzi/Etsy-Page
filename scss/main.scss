@@ -176,14 +176,13 @@
 
       .results {
         margin-top: 0;
-      }
-
-        h4 {
           padding-bottom: 10px;
           padding-right: 0;
           margin-bottom: 0;
           font-size: 13px;
         }
+
+      
 
       .categories {
         list-style: none;
@@ -281,22 +280,75 @@
             }
 
             li {
+              // height: 18px;
+              // width: 18px;
+          
+              
               display: inline;
             }
 
-
-            li a {
-              height:20px;
-              width: 20px;
+            .red {
+                  height: 18px;
+              width: 18px;
               border-radius: 2px;
+              background-color: #F50F32;
+            }
+
+            .orange {
+                  height: 18px;
+              width: 18px;
+              border-radius: 2px;
+              background-color: #FB7F00 ;
+            }  
+
+            .yellow {
+              height: 18px;
+              width: 18px;
+              border-radius: 2px;
+              background-color: #F3CC0A;
+            }
+
+            .green {
+             height: 18px;
+              width: 18px;              border-radius: 2px;
+              background-color: #31C300;
+            }
+
+            .blue {
+              height: 18px;
+              width: 18px;              border-radius: 2px;
+              background-color: #2FCCF3;
+            }
+
+            .purple {
+            height: 18px;
+              width: 18px;
+              border-radius: 2px;
+              background-color: #A60AF3;
+            }
+
+            .black {
+               height: 18px;
+              width: 18px;
+              border-radius: 2px;
+              background-color: #000000;
+            }
+
+            .white {
+              height: 18px;
+              width: 18px;
+              background-color: #FFFFFF;
               border: 1px solid #E1E3DF;
             }
+
+            
+          }
 
               // a {
               // padding-right: 0;
 
               // }
-          }
+          
 
           div.filter-order {
             height: 92;

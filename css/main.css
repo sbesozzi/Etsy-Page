@@ -105,9 +105,7 @@ aside {
   float: left; }
 
 .results {
-  margin-top: 0; }
-
-h4 {
+  margin-top: 0;
   padding-bottom: 10px;
   padding-right: 0;
   margin-bottom: 0;
@@ -179,10 +177,45 @@ li a {
     padding-left: 10px; }
   .filter-color li {
     display: inline; }
-  .filter-color li a {
-    height: 20px;
-    width: 20px;
+  .filter-color .red {
+    height: 18px;
+    width: 18px;
     border-radius: 2px;
+    background-color: #F50F32; }
+  .filter-color .orange {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #FB7F00; }
+  .filter-color .yellow {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #F3CC0A; }
+  .filter-color .green {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #31C300; }
+  .filter-color .blue {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #2FCCF3; }
+  .filter-color .purple {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #A60AF3; }
+  .filter-color .black {
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background-color: #000000; }
+  .filter-color .white {
+    height: 18px;
+    width: 18px;
+    background-color: #FFFFFF;
     border: 1px solid #E1E3DF; }
 
 div.filter-order {
