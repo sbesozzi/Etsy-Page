@@ -34,13 +34,14 @@ h1 {
   float: right; }
 
 .nav-form {
+  height: 35px;
   border: 1px solid #E1E3DF;
   border-radius: 3px; }
 
 .input-text {
   border: 0;
   width: 265px;
-  height: 30px;
+  height: 35px;
   background-color: #FBFBFA; }
 
 .input-button {
@@ -66,7 +67,7 @@ h1 {
 
 .log-signin {
   width: 42px;
-  height: 16px;
+  height: 30px;
   text-decoration: none;
   font-size: 14px;
   color: #0192B5;
@@ -125,6 +126,8 @@ aside {
   background-color: white; }
 
 h4 {
+  margin-bottom: 0;
+  padding-bottom: 5px;
   padding-left: 8px;
   font-size: 13px; }
 
@@ -150,11 +153,11 @@ li a {
   height: 110px;
   border-bottom: 1px solid #D4D4D4; }
 
-li a {
-  font-size: 13px; }
+.item-type {
+  padding-left: 10px; }
 
 .filter-price {
-  height: 100px;
+  height: 200px;
   display: inline;
   border-bottom: 1px solid #D4D4D4; }
   .filter-price h4 {
@@ -170,7 +173,7 @@ li a {
   border: 1px solid #E1E3DF;
   border-radius: 3px; }
 
-.price-select {
+.price-submit {
   width: 40px;
   height: 35px;
   padding: 0;
@@ -183,52 +186,59 @@ li a {
   height: 88px;
   border-bottom: 1px solid #E1E3DF;
   background-color: white; }
-  .filter-color .colors {
-    width: 200px;
-    height: 22px;
-    padding-left: 10px;
-    display: inline; }
-  .filter-color .red {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #F50F32; }
-  .filter-color .orange {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #FB7F00; }
-  .filter-color .yellow {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #F3CC0A; }
-  .filter-color .green {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #31C300; }
-  .filter-color .blue {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #2FCCF3; }
-  .filter-color .purple {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #A60AF3; }
-  .filter-color .black {
-    height: 22px;
-    width: 22px;
-    border-radius: 3px;
-    background-color: #000000; }
-  .filter-color .white {
-    height: 22px;
-    width: 22px;
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    border: 1px solid #E1E3DF; }
+
+.colors {
+  padding-left: 10px;
+  display: inline; }
+
+.red {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #F50F32; }
+
+.orange {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #FB7F00; }
+
+.yellow {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #F3CC0A; }
+
+.green {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #31C300; }
+
+.blue {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #2FCCF3; }
+
+.purple {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #A60AF3; }
+
+.black {
+  height: 22px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: #000000; }
+
+.white {
+  height: 22px;
+  width: 22px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  border: 1px solid #E1E3DF; }
 
 .filter-order {
   height: 90px;
@@ -261,7 +271,7 @@ li a {
   .filter-ship form {
     width: 220px;
     height: 40px;
-    margin-left: 5px;
+    margin-left: 10px;
     border: 1px solid #E1E3DF;
     border-radius: 3px; }
   .filter-ship form a {
@@ -355,10 +365,24 @@ footer {
   clear: both; }
 
 .related {
+  height: 40px;
   padding-left: 0;
   padding-bottom: 20px;
   display: inline; }
 
 .related-items {
+  padding-bottom: 25px;
   text-align: left;
   display: inline-block; }
+  .related-items a {
+    width: 50px; }
+
+.footer-nav {
+  width: 400px;
+  height: 38px;
+  background-color: white;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  text-align: center; }
+  .footer-nav a {
+    padding-top: 15px; }

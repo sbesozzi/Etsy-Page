@@ -38,10 +38,10 @@
       }
 
 
-      h1 {
+        h1 {
         margin: 0;
 
-      }
+        }
 
       .nav-search {
         margin: 0; 
@@ -50,7 +50,8 @@
         float: right;
       }
 
-        .nav-form{
+        .nav-form {
+          height: 35px;
           border: 1px solid #E1E3DF;
           border-radius: 3px;
 
@@ -59,8 +60,8 @@
         .input-text {
           border: 0;
           width: 265px;
-        height: 30px; 
-        background-color: #FBFBFA;
+          height: 35px; 
+          background-color: #FBFBFA;
 
         }
 
@@ -71,15 +72,8 @@
           border: 0;
           outline: none;
           color: white;
-
-
-
         }
-        select {
-
-        }
-
-
+       
     .nav-login {
       padding-top: 35px;
       padding-right: 180px;
@@ -97,9 +91,9 @@
       padding-right: 15px;
     }
 
-    .log-signin{
+    .log-signin {
       width: 42px;
-      height: 16px;
+      height: 30px;
       text-decoration: none;
       font-size: 14px;
       color: #0192B5;
@@ -169,7 +163,7 @@
       display: inline-block;
       // position: absolute;
       // overflow: hidden;
-    }
+  }
 
   aside {
         padding-left: 95px;
@@ -178,7 +172,7 @@
         height: 940px;
         float: left;
         // position: absolute;
-        }
+  }
 
       .results {
         margin-top: 0;
@@ -186,7 +180,7 @@
         padding-right: 0;
         margin-bottom: 0;
         font-size: 13px;
-        }
+      }
 
       
 
@@ -200,6 +194,8 @@
       }
 
           h4 {
+            margin-bottom: 0;
+            padding-bottom: 5px;
             padding-left: 8px;
             font-size: 13px;
 
@@ -231,15 +227,18 @@
         .filter-type {
             height: 110px;
             border-bottom: 1px solid #D4D4D4;
+        }
 
+        .item-type {
+          padding-left: 10px;
         }
      
-          li a {
-            font-size: 13px;
-          }
+        
+
+
 
         .filter-price {
-           height: 100px;
+           height: 200px;
             display: inline;
             border-bottom: 1px solid #D4D4D4;
          
@@ -254,7 +253,7 @@
 
         }
 
-            .price-input {
+       .price-input {
                margin-left: 10px;
 
               width: 70px;
@@ -263,7 +262,7 @@
              border-radius: 3px;
             }
 
-            .price-select {
+            .price-submit {
             width: 40px;
             height: 35px;
             padding: 0;
@@ -280,9 +279,10 @@
             border-bottom: 1px solid #E1E3DF;
             background-color: white;
 
+          }
+
             .colors {
-              width: 200px;
-              height: 22px;
+              // height: 22px;
               padding-left: 10px;
               display: inline;
             }
@@ -346,7 +346,7 @@
             }
 
         
-          }
+          
 
 
           .filter-order {
@@ -399,7 +399,7 @@
             form {
               width: 220px;
               height: 40px;
-              margin-left: 5px;
+              margin-left: 10px;
               border: 1px solid #E1E3DF;
               border-radius: 3px;
             }
@@ -530,19 +530,42 @@
     clear: both;
   }
 
+
       .related {
+        height: 40px;
           padding-left: 0;
           padding-bottom: 20px;
           display: inline;
+          
+      }
    
-        }
-
       .related-items {
+        padding-bottom: 25px;
 
           text-align: left;
           display: inline-block;
 
+          
+
+           a {
+                width: 50px;
+              }
+
           }
+
+       .footer-nav {
+      width: 400px;
+      height: 38px;
+      background-color: white;
+      border: 1px solid #E1E3DF;
+      border-radius: 3px;
+      text-align: center;
+
+            a {
+              padding-top: 15px;
+
+            }
+      }
     
 
 
