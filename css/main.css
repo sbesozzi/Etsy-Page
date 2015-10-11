@@ -244,11 +244,9 @@ li a {
   height: 90px;
   padding-bottom: 0;
   border-bottom: 1px solid #D4D4D4; }
-  .filter-order h4 {
-    margin-bottom: 0; }
-  .filter-order ul {
-    margin-top: 0;
-    padding-top: 5px; }
+
+.order-options {
+  padding-left: 10px; }
 
 .filter-location {
   height: 105px;
@@ -260,23 +258,22 @@ li a {
   margin-bottom: 0;
   padding-bottom: 5px; }
 
-.local-custom {
-  margin: 0; }
+.location {
+  padding-left: 10px; }
 
 .filter-ship {
   height: 92px; }
   .filter-ship h4 {
     margin-bottom: 0;
     padding-bottom: 5px; }
-  .filter-ship form {
-    width: 220px;
+  .filter-ship .ship-to {
+    width: 215px;
     height: 40px;
+    margin-top: 10px;
     margin-left: 10px;
-    border: 1px solid #E1E3DF;
-    border-radius: 3px; }
-  .filter-ship form a {
-    padding-left: 5px;
-    padding-top: 10px; }
+    background-color: white;
+    border-bottom: 1px solid #E1E3DF;
+    outline: none; }
 
 section {
   margin-left: auto;
