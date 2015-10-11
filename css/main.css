@@ -71,8 +71,7 @@ h1 {
   font-size: 14px;
   color: #0192B5;
   border: 1px solid #0192B5;
-  border-radius: 3px;
-  padding-right: 15px; }
+  border-radius: 3px; }
 
 .sub-header {
   width: 100%;
@@ -156,71 +155,77 @@ li a {
 
 .filter-price {
   height: 100px;
-  border-bottom: 1px solid #E1E3DF;
-  display: inline; }
+  display: inline;
+  border-bottom: 1px solid #D4D4D4; }
   .filter-price h4 {
     margin: 0;
-    padding-top: 10px; }
+    padding-top: 20px; }
   .filter-price a {
     padding: 0; }
 
 .price-input {
   margin-left: 10px;
-  width: 50px;
+  width: 70px;
   height: 35px;
   border: 1px solid #E1E3DF;
-  border-radius: 2px; }
+  border-radius: 3px; }
 
 .price-select {
   width: 40px;
-  height: 35px; }
+  height: 35px;
+  padding: 0;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  outline: none;
+  background-color: white; }
 
 .filter-color {
   height: 88px;
-  border-bottom: 1px solid #E1E3DF; }
-  .filter-color ul {
-    list-style-type: none;
-    padding-left: 10px; }
-  .filter-color li {
+  border-bottom: 1px solid #E1E3DF;
+  background-color: white; }
+  .filter-color .colors {
+    width: 200px;
+    height: 22px;
+    padding-left: 10px;
     display: inline; }
   .filter-color .red {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #F50F32; }
   .filter-color .orange {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #FB7F00; }
   .filter-color .yellow {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #F3CC0A; }
   .filter-color .green {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #31C300; }
   .filter-color .blue {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #2FCCF3; }
   .filter-color .purple {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #A60AF3; }
   .filter-color .black {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     border-radius: 3px;
     background-color: #000000; }
   .filter-color .white {
-    height: 18px;
-    width: 18px;
+    height: 22px;
+    width: 22px;
     background-color: #FFFFFF;
     border-radius: 3px;
     border: 1px solid #E1E3DF; }
@@ -343,15 +348,17 @@ section {
   float: right; }
 
 footer {
-  margin: 0;
+  margin: auto;
   height: 100px;
-  width: 100%;
+  width: 540px;
   padding-top: 20px;
-  text-align: center;
   clear: both; }
 
-.related h4 {
+.related {
+  padding-left: 0;
+  padding-bottom: 20px;
   display: inline; }
 
-.related a {
+.related-items {
+  text-align: left;
   display: inline-block; }

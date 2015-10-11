@@ -105,7 +105,7 @@
       color: #0192B5;
       border: 1px solid #0192B5;
       border-radius: 3px;
-      padding-right: 15px;
+      // padding-right: 15px;
     }
 
 
@@ -233,24 +233,19 @@
             border-bottom: 1px solid #D4D4D4;
 
         }
-       
-          // li {
-          //   padding-bottom: 7px;
-          // }
-
+     
           li a {
             font-size: 13px;
           }
 
         .filter-price {
            height: 100px;
-            border-bottom: 1px solid #E1E3DF;
             display: inline;
-
+            border-bottom: 1px solid #D4D4D4;
          
           h4 {
             margin: 0;
-            padding-top: 10px;
+            padding-top: 20px;
           }
 
           a {
@@ -262,86 +257,89 @@
             .price-input {
                margin-left: 10px;
 
-              width: 50px;
-            height: 35px;
+              width: 70px;
+             height: 35px;
              border: 1px solid #E1E3DF;
-             border-radius: 2px;
+             border-radius: 3px;
             }
 
             .price-select {
             width: 40px;
             height: 35px;
+            padding: 0;
+             border: 1px solid #E1E3DF;
+             border-radius: 3px;
+            outline: none;
+            background-color: white;
             }
+
 
             .filter-color {
 
             height: 88px;
             border-bottom: 1px solid #E1E3DF;
+            background-color: white;
 
-
-            ul {
-              list-style-type: none;
+            .colors {
+              width: 200px;
+              height: 22px;
               padding-left: 10px;
-            }
-
-            li {
-              // height: 18px;
-              // width: 18px;
-          
-              
               display: inline;
             }
 
+
             .red {
-                  height: 18px;
-              width: 18px;
+              height: 22px;
+              width: 22px;
               border-radius: 3px;
               background-color: #F50F32;
+              // padding-right: 5px;
             }
 
             .orange {
-                  height: 18px;
-              width: 18px;
+              height: 22px;
+              width: 22px;
               border-radius: 3px;
               background-color: #FB7F00 ;
             }  
 
             .yellow {
-              height: 18px;
-              width: 18px;
+              height: 22px;
+              width: 22px;
               border-radius: 3px;
               background-color: #F3CC0A;
             }
 
             .green {
-             height: 18px;
-              width: 18px;              border-radius: 3px;
-              background-color: #31C300;
+             height: 22px;
+              width: 22px;
+             border-radius: 3px;
+            background-color: #31C300;
             }
 
             .blue {
-              height: 18px;
-              width: 18px;              border-radius: 3px;
+              height: 22px;
+              width: 22px;     
+              border-radius: 3px;
               background-color: #2FCCF3;
             }
 
             .purple {
-            height: 18px;
-              width: 18px;
-              border-radius: 3px;
+            height: 22px;
+              width: 22px;           border-radius: 3px;
               background-color: #A60AF3;
             }
 
             .black {
-               height: 18px;
-              width: 18px;
+               height: 22px;
+              width: 22px;
               border-radius: 3px;
               background-color: #000000;
             }
 
             .white {
-              height: 18px;
-              width: 18px;
+              height: 22px;
+              width: 22px;
               background-color: #FFFFFF;
               border-radius: 3px;
               border: 1px solid #E1E3DF;
@@ -525,29 +523,27 @@
 
 
   footer {
-    margin: 0;
+    margin: auto;
     height: 100px;
-    width: 100%;
+    width: 540px;
     padding-top: 20px;
-    text-align: center;
     clear: both;
   }
 
       .related {
-
-        h4 {
-
+          padding-left: 0;
+          padding-bottom: 20px;
           display: inline;
+   
         }
 
       .related-items {
-        }
 
-          a{
-            display: inline-block;
+          text-align: left;
+          display: inline-block;
 
           }
-      }
+    
 
 
 
