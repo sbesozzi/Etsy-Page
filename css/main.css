@@ -117,7 +117,7 @@ aside {
 
 .cat-results {
   margin: 0;
-  padding-bottom: 14px;
+  padding-bottom: 15px;
   font-size: 13px; }
 
 .categories {
@@ -180,24 +180,27 @@ li a {
 div {
   padding-bottom: 5px; }
 
+.price {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 5px; }
+
 .filter-price {
   height: 200px;
   display: inline;
   border-bottom: 1px solid #D4D4D4; }
-  .filter-price .price {
-    padding-left: 10px;
-    font-size: 13px;
-    margin-bottom: 0;
-    padding-bottom: 5px; }
-  .filter-price a {
+  .filter-price .price-range a {
     padding: 0; }
 
 .price-input {
   margin-left: 10px;
-  width: 70px;
+  width: 58px;
   height: 35px;
   border: 1px solid #E1E3DF;
-  border-radius: 3px; }
+  border-radius: 3px;
+  font-size: 14px;
+  padding-left: 10px; }
 
 .price-submit {
   width: 40px;
