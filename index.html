@@ -65,12 +65,12 @@
       
       <aside>
         
-        <h4 class="results">Show results for:  
+        <h4 class="cat-results">Show results for:  
         </h4>
         
         <div class="categories">
           
-          <h4>All Categories</h4>
+          <h4 class="all-categories">All Categories</h4>
           <ul class="categories-list">
             <li><a href="#">Home & Living</a></li>
             <li><a href="#">Craft Supplies & Tools</a></li>    
@@ -83,18 +83,21 @@
 
         </div>
 
-        <h4 class="refine">Refine your search
+
+        <h4 class="filter-results">Refine your search
         </h4>
+
+
 
         <div class="filter">
           
           <div class="filter-type">
 
-            <h4>Item Type</h4>
+            <h4 class="item-type">Item Type</h4>
             
-            <div class="item-type">
+            <div class="item-types">
               <div>
-                <label class="radio">
+                <label class="radio" checked="checked">
                   <input type="radio">
                   <a href="#">All Items</a>
                 </label>
@@ -112,20 +115,24 @@
                 </label>
               </div>
             </div>
-
+          </div>
 
           <div class="filter-price">
 
-            <h4>Price</h4>
+            <h4 class="price">Price</h4>
+
+            <div>
             <input class="price-input"></input>
             <a>to</a>
             <input class="price-input"></input>
             <input class="price-submit">
-            </input> 
+            </input>
+            </div>
+
           </div>
 
           <div class="filter-color">
-            <h4>Filter by Color</h4>
+            <h4 class="color">Filter by Color</h4>
             
             <div class="colors">
               <a class="red" href="#"></a>
@@ -141,7 +148,7 @@
 
 
           <div class="filter-order">
-            <h4>Ordering Options</h4>
+            <h4 class="options">Ordering Options</h4>
             <div class="order-options">
               <div>
                 <label class="checkbox">
@@ -182,7 +189,7 @@
           </div>
 
           <div class="filter-ship">
-            <h4>Ship To</h4>
+            <h4 class="ship">Ship To</h4>
             <select name="ship" class="ship-to">United States
             </select>
 
@@ -244,8 +251,8 @@
       <footer> 
 
         <div class="related">
-          <h4>Related to</h4>
-          <h4>shibori pillow</h4>
+          <h4 class="related-sub">Related to</h4>
+          <h4 class="related-sub">shibori pillow</h4>
         </div>
             
         <div class="related-items">
@@ -262,18 +269,18 @@
         </div>
 
         <div class="footer-nav">
-          <a class="btn"><<a>
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">4</a>
-          <a href="#">5</a>
-          <a href="#">6</a>
-          <a href="#">7</a>
-          <a href="#">8</a>
-          <a disabled="disabled">...</a>
-          <a href="#">12</a>
-          <a class="btn">><a>  
+          <a class="page"><</a>
+          <a class="page" href="#">1</a>
+          <a class="page" href="#">2</a>
+          <a class="page"href="#">3</a>
+          <a class="page"href="#">4</a>
+          <a class="page"href="#">5</a>
+          <a class="page"href="#">6</a>
+          <a class="page"href="#">7</a>
+          <a class="page"href="#">8</a>
+          <a class="page"disabled="disabled">...</a>
+          <a class="page"href="#">12</a>
+          <a class="page">></a>  
         </div>
       
       </footer>

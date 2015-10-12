@@ -13,7 +13,7 @@ header {
   padding-top: 17px;
   padding-bottom: 11px;
   padding-left: 130px;
-  height: 53px;
+  height: 48px;
   float: left;
   display: inline; }
 
@@ -96,8 +96,8 @@ a {
 
 .content {
   margin: 0;
-  height: 1095px;
-  width: 100%;
+  height: 2250       px;
+  width: 1275px;
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -110,11 +110,9 @@ aside {
   height: 940px;
   float: left; }
 
-.results {
-  margin-top: 0;
-  padding-bottom: 10px;
-  padding-right: 0;
-  margin-bottom: 0;
+.cat-results {
+  margin: 0;
+  padding-bottom: 14px;
   font-size: 13px; }
 
 .categories {
@@ -125,11 +123,11 @@ aside {
   border-radius: 3px;
   background-color: white; }
 
-h4 {
+.all-categories {
+  padding-left: 10px;
+  font-size: 13px;
   margin-bottom: 0;
-  padding-bottom: 5px;
-  padding-left: 8px;
-  font-size: 13px; }
+  padding-bottom: 5px; }
 
 .categories-list {
   list-style-type: none;
@@ -142,9 +140,21 @@ li {
 li a {
   font-size: 13px; }
 
+.refine-your-search {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px; }
+
+.filter-results {
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px; }
+
 .filter {
   width: 240px;
-  height: 625px;
+  height: 655px;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   background-color: white; }
@@ -154,15 +164,26 @@ li a {
   border-bottom: 1px solid #D4D4D4; }
 
 .item-type {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 5px; }
+
+.item-types {
   padding-left: 10px; }
+
+div {
+  padding-bottom: 5px; }
 
 .filter-price {
   height: 200px;
   display: inline;
   border-bottom: 1px solid #D4D4D4; }
-  .filter-price h4 {
-    margin: 0;
-    padding-top: 20px; }
+  .filter-price .price {
+    padding-left: 10px;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 5px; }
   .filter-price a {
     padding: 0; }
 
@@ -186,6 +207,12 @@ li a {
   height: 88px;
   border-bottom: 1px solid #E1E3DF;
   background-color: white; }
+
+.color {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 5px; }
 
 .colors {
   padding-left: 10px;
@@ -244,17 +271,27 @@ li a {
   height: 90px;
   padding-bottom: 0;
   border-bottom: 1px solid #D4D4D4; }
+  .filter-order .options {
+    padding-left: 10px;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-bottom: 5px; }
 
 .order-options {
   padding-left: 10px; }
 
+.checkbox {
+  padding-bottom: 5px; }
+
 .filter-location {
   height: 105px;
   border-bottom: 1px solid #E1E3DF; }
-  .filter-location ul {
-    margin: 0; }
+  .filter-location div {
+    border-bottom: 5px; }
 
 .local-shop {
+  padding-left: 10px;
+  font-size: 13px;
   margin-bottom: 0;
   padding-bottom: 5px; }
 
@@ -263,16 +300,19 @@ li a {
 
 .filter-ship {
   height: 92px; }
-  .filter-ship h4 {
-    margin-bottom: 0;
-    padding-bottom: 5px; }
+  .filter-ship .ship {
+    padding-left: 10px;
+    font-size: 13px;
+    margin-bottom: 0; }
   .filter-ship .ship-to {
     width: 215px;
     height: 40px;
     margin-top: 10px;
     margin-left: 10px;
     background-color: white;
+    border-radius: 3px;
     border-bottom: 1px solid #E1E3DF;
+    color: black;
     outline: none; }
 
 section {
@@ -291,6 +331,7 @@ section {
 .search-results {
   height: 30px;
   width: 400px;
+  padding-bottom: 0;
   float: left; }
   .search-results h4 {
     padding-left: 5px;
@@ -299,11 +340,13 @@ section {
 
 .sort {
   padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
   height: 30px;
   width: 186px;
   float: right; }
   .sort h4 {
-    font-size: 15px;
+    font-size: 13px;
     display: inline; }
 
 .item-results {
@@ -312,8 +355,7 @@ section {
   clear: both; }
 
 .item {
-  margin: 8px;
-  margin-top: 0;
+  margin: 6px;
   height: 227px;
   width: 225px;
   background-color: white;
@@ -357,14 +399,17 @@ section {
 footer {
   margin: auto;
   height: 100px;
-  width: 540px;
-  padding-top: 20px;
+  width: 552px;
+  padding-top: 90px;
   clear: both; }
 
 .related {
-  height: 40px;
+  height: 30px;
+  padding-top: 20px;
   padding-left: 0;
-  padding-bottom: 20px;
+  font-size: 13px; }
+
+.related-sub {
   display: inline; }
 
 .related-items {
@@ -375,11 +420,15 @@ footer {
     width: 50px; }
 
 .footer-nav {
-  width: 400px;
-  height: 38px;
   background-color: white;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   text-align: center; }
-  .footer-nav a {
-    padding-top: 15px; }
+
+.page {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding-top: 15px;
+  padding-right: 10px;
+  border: 1px solid #E1E3DF; }
