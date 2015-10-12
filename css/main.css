@@ -132,7 +132,7 @@ aside {
   padding-left: 10px;
   font-size: 13px;
   margin-bottom: 0;
-  padding-bottom: 5px; }
+  padding-bottom: 10px; }
 
 .categories-list {
   list-style-type: none;
@@ -172,7 +172,7 @@ li a {
   padding-left: 10px;
   font-size: 13px;
   margin-bottom: 0;
-  padding-bottom: 5px; }
+  padding-bottom: 10px; }
 
 .item-types {
   padding-left: 10px; }
@@ -224,7 +224,8 @@ div {
   padding-bottom: 5px; }
 
 .colors {
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-bottom: 10px; }
 
 .colors a {
   height: 22px;
@@ -281,13 +282,13 @@ div {
 
 .filter-order {
   height: 90px;
-  padding-bottom: 0;
+  padding-bottom: 10px;
   border-bottom: 1px solid #D4D4D4; }
   .filter-order .options {
     padding-left: 10px;
     font-size: 13px;
     margin-bottom: 0;
-    padding-bottom: 5px; }
+    padding-bottom: 10px; }
 
 .order-options {
   padding-left: 10px; }
@@ -305,7 +306,7 @@ div {
   padding-left: 10px;
   font-size: 13px;
   margin-bottom: 0;
-  padding-bottom: 5px; }
+  padding-bottom: 10px; }
 
 .location {
   padding-left: 10px; }
