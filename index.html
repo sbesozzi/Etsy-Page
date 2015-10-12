@@ -36,7 +36,7 @@
           <a class="log" href="#" >Sell on Etsy</a>
           <a class="log" href="#" >Register</a>
           <a class="log-signin" href="#" >Sign in</a>
-            <a class="log" href="#" >
+          <a class="log-cart" href="#" >
             Cart</a>
     
       </div>
@@ -225,7 +225,7 @@
            <div class= "item">
 
               <div class= "item-img">
-                <p><img src="<%= Images[0].url_170x135 %>"></p>
+                <p><img src=" <%= Images[0].url_170x135 %>"></p>
               </div>
 
               <div class="item-disc">   
@@ -233,7 +233,7 @@
                   <p> <%= title %></p> 
                 </div>
                 <div class="item-subtitle">
-                  <p class="shop"><%= Shop.shop_name %></p>
+                  <p class="shop"><a href="#"> <%= Shop.shop_name %> </a> </p>
                   <p class="price"><%= "$"+price+" "+currency_code %></p>
                 </div>    
               </div>
